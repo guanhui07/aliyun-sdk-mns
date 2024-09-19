@@ -22,20 +22,5 @@
         "psr-4": {
             "AliyunMNS\\": "AliyunMNS/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "AliyunMNS\\Tests\\": "tests/",
-            "AliyunMNS\\Samples\\": "Samples/"
-        }
-    },"extra": {
-        "branch-alias": {
-            "dev-master": "master-dev"
-        }
-    },    
-    "suggest": {
-        "ext-openssl": "Allows working with https",
-        "ext-curl": "To send requests using cURL",
-        "ext-json": "Parse json"
     }
 }
